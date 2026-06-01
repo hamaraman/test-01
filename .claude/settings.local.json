@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"L:\\\\aaa123\" -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "PowerShell(head *)",
+      "Bash(npx tsc *)",
+      "Bash(./gradlew compileJava)",
+      "Bash(./gradlew test *)",
+      "Bash(curl -s http://localhost:8081/api/themes)",
+      "Bash(python -m json.tool)",
+      "Bash(curl *)",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":5173\")",
+      "Bash(findstr \"LISTENING\")",
+      "Bash(findstr \":8081\")",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(kill -f 73784)",
+      "PowerShell(Start-Process notepad.exe \"D:\\\\aaa123\\\\tistory_skin\\\\skin.html\")",
+      "PowerShell(Start-Process notepad.exe \"D:\\\\aaa123\\\\tistory_skin\\\\style.css\")",
+      "PowerShell(netstat *)",
+      "PowerShell(New-Item *)"
+    ]
+  }
+}
